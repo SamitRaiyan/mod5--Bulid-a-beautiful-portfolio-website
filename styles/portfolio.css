@@ -1,6 +1,5 @@
 /* common shared style */
-body{
-   
+body {
   font-family: "Open Sans", sans-serif;
   font-family: "Lato", sans-serif;
   /* font-optical-sizing: auto;
@@ -11,6 +10,6 @@ body{
 }
 
 /* nav related styles */
-nav{
-    display: flex;
+nav {
+  display: flex;
 }
