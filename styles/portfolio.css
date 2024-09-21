@@ -185,8 +185,11 @@ footer {
 }
 .social-links{
   margin-right: 25px;
-  gap: 50px;
-
+  gap: 20px;
+}
+/* Adds 24px space to the right of each icon */
+.social-links img {
+  margin-right: 24px; 
 }
 
 .contact input[type="text"],.contact input[type="email"],
