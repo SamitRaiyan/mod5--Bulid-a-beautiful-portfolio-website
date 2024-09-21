@@ -55,7 +55,8 @@ nav a {
 /* header  related items */
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png"),url('../images/developer.png');
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
 }
@@ -138,6 +139,12 @@ main section {
 }
 
 /* resume section styles */
+.resume-title {
+  color:#181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
 .resume-column-title {
   color: #474747;
   font-size: 30px;
@@ -171,6 +178,27 @@ main section {
 .download-cv {
   text-align: center;
 }
+.download-cv {
+  text-align: center;
+}
+
+.download-cv .btn-primary {
+  position: relative;
+  padding-left: 50px;
+}
+
+.download-cv .btn-primary::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/icons/down.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 /* footer style */
 footer {
@@ -183,16 +211,17 @@ footer {
 .footer-column {
   width: 50%;
 }
-.social-links{
+.social-links {
   margin-right: 25px;
   gap: 20px;
 }
 /* Adds 24px space to the right of each icon */
 .social-links img {
-  margin-right: 24px; 
+  margin-right: 24px;
 }
 
-.contact input[type="text"],.contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
   display: block;
   margin-bottom: 25px;
